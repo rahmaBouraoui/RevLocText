@@ -8,5 +8,13 @@ public class Garagiste {
 		this.adresse = adresse ;
 	}
 
+	public void getNom() {
+		return nom ;
+	}
+	
+	public void getAdresse() {
+		return adresse ;
+	}
+
 }
 
