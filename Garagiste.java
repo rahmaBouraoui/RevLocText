@@ -8,12 +8,20 @@ public class Garagiste {
 		this.adresse = adresse ;
 	}
 
-	public void getNom() {
+	public String getNom() {
 		return nom ;
 	}
-	
-	public void getAdresse() {
+
+	public String getAdresse() {
 		return adresse ;
+	}
+
+	public void setNom(String nom) {
+		nom = nom ;
+	}
+
+	public void setAdresse(String adresse) {
+		adresse = adresse ;
 	}
 
 }
